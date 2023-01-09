@@ -41,23 +41,23 @@ module.exports = {
       'error',
       {
         selector: 'default',
-        format: ['strictCamelCase'],
+        format: ['camelCase'],
       },
 
       {
         selector: ['variable', 'function'],
-        format: ['strictCamelCase', 'PascalCase'],
+        format: ['camelCase', 'PascalCase'],
       },
       {
         selector: 'parameter',
-        format: ['strictCamelCase'],
+        format: ['camelCase'],
         leadingUnderscore: 'allow',
       },
 
       {
         selector: 'memberLike',
         modifiers: ['private'],
-        format: ['strictCamelCase'],
+        format: ['camelCase'],
         leadingUnderscore: 'require',
       },
 
