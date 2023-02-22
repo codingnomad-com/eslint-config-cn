@@ -6,6 +6,17 @@
   "author": "Manuel Bachl | Coding Nomad <manuel@coding-nomad.com> (https://coding-nomad.com)",
   "homepage": "https://coding-nomad.com",
   "license": "MIT",
+  "scripts": {
+    "commit": "git-cz",
+    "release": "standard-version",
+    "release:tags": "git push --follow-tags origin main",
+    "prepublishOnly": "yarn release && yarn release:tags"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "dependencies": {
     "eslint": "^8.30.0",
     "eslint-config-airbnb": "^19.0.4",
@@ -24,7 +35,20 @@
     "jest": "^29.3.1",
     "prettier": "^2.8.1"
   },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "commitizen": "^4.3.0",
+    "read-pkg-up": "^9.1.0",
+    "standard-version": "^9.5.0"
+  },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "keywords": [
+    "eslint",
+    "prettier",
+    "stylelint",
+    "commitlint"
+  ]
 }
