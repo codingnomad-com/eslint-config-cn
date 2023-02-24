@@ -40,35 +40,33 @@ module.exports = {
     '@typescript-eslint/naming-convention': [
       'error',
       {
+        format: ['camelCase', 'PascalCase'],
         selector: 'default',
-        format: ['camelCase', 'PascalCase'],
       },
-
       {
+        format: ['camelCase', 'PascalCase'],
         selector: ['variable', 'function'],
-        format: ['camelCase', 'PascalCase'],
       },
       {
-        selector: 'parameter',
         format: ['camelCase', 'PascalCase'],
         leadingUnderscore: 'allow',
+        selector: 'parameter',
       },
-
       {
-        selector: 'memberLike',
-        modifiers: ['private'],
         format: ['camelCase', 'PascalCase'],
         leadingUnderscore: 'require',
+        modifiers: ['private'],
+        selector: 'memberLike',
       },
-
       {
-        selector: 'typeLike',
         format: ['PascalCase'],
+        selector: 'typeLike',
       },
     ],
     'arrow-parens': ['error', 'always'],
     'comma-dangle': ['error', 'only-multiline'],
     'import/extensions': 0,
+    'import/no-default-export': 1,
     'import/no-extraneous-dependencies': [
       'error',
       {
@@ -76,6 +74,7 @@ module.exports = {
       },
     ],
     'import/no-unresolved': 'error',
+    'import/prefer-default-export': 0,
     'jest/no-export': 'off',
     'jsx-a11y/label-has-associated-control': 0,
     'no-console': 1,
