@@ -66,7 +66,7 @@ module.exports = {
     'arrow-parens': ['error', 'always'],
     'comma-dangle': ['error', 'only-multiline'],
     'import/extensions': 0,
-    'import/no-default-export': 1,
+    'import/no-default-export': 0,
     'import/no-extraneous-dependencies': [
       'error',
       {
