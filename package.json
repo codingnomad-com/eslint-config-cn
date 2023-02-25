@@ -1,6 +1,6 @@
 {
   "name": "@codingnomad/eslint-config-cn",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "main": "index.js",
   "repository": "github:codingnomad-com/eslint-config-cn",
   "author": "Manuel Bachl | Coding Nomad <manuel@coding-nomad.com> (https://coding-nomad.com)",
