@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.12](https://github.com/codingnomad-com/eslint-config-cn/compare/v0.1.11...v0.1.12) (2023-02-25)
+
+
+### Features
+
+* **eslint:** adjustes no-plusplus rule ([5d2d5ba](https://github.com/codingnomad-com/eslint-config-cn/commit/5d2d5babe235cb9403064732510aa7136d15ac2a))
+
 ### [0.1.11](https://github.com/codingnomad-com/eslint-config-cn/compare/v0.1.10...v0.1.11) (2023-02-25)
 
 ### [0.1.10](https://github.com/codingnomad-com/eslint-config-cn/compare/v0.1.9...v0.1.10) (2023-02-24)
