@@ -78,7 +78,12 @@ module.exports = {
     'jest/no-export': 'off',
     'jsx-a11y/label-has-associated-control': 0,
     'no-console': 1,
-    'no-plusplus': 0,
+    'no-plusplus': [
+      2,
+      {
+        allowForLoopAfterthoughts: true,
+      },
+    ],
     'no-useless-constructor': 0,
     'object-curly-newline': 'off',
     'prefer-destructuring': 1,
