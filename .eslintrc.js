@@ -79,7 +79,7 @@ module.exports = {
     'jsx-a11y/label-has-associated-control': 0,
     'no-console': 1,
     'no-plusplus': [
-      2,
+      'error',
       {
         allowForLoopAfterthoughts: true,
       },
