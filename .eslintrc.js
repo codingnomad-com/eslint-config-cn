@@ -1,8 +1,12 @@
 module.exports = {
-  root: true,
+  env: {
+    browser: true,
+    es6: true,
+    jest: true,
+    node: true,
+  },
   extends: [
     'airbnb',
-    'plugin:react/recommended',
     'prettier',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
@@ -11,22 +15,15 @@ module.exports = {
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    ecmaVersion: 2020,
     ecmaFeatures: {
       jsx: true,
     },
+    ecmaVersion: 2020,
     parserOptions: {
       project: ['./App.tsx', './tsconfig.json'],
     },
   },
-  env: {
-    browser: true,
-    node: true,
-    jest: true,
-    es6: true,
-  },
   plugins: [
-    'react',
     'jsx-a11y',
     'react-hooks',
     'prettier',
@@ -35,6 +32,7 @@ module.exports = {
     'typescript-sort-keys',
     '@typescript-eslint',
   ],
+  root: true,
   rules: {
     '@typescript-eslint/ban-types': 0,
     '@typescript-eslint/naming-convention': [
