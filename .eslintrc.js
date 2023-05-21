@@ -1,30 +1,4 @@
 module.exports = {
-  env: {
-    browser: true,
-    es6: true,
-    jest: true,
-    node: true,
-  },
-  extends: ['airbnb', 'prettier', 'plugin:@typescript-eslint/recommended'],
-  parser: '@typescript-eslint/parser',
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-    ecmaVersion: 2020,
-    parserOptions: {
-      project: ['./App.tsx', './tsconfig.json'],
-    },
-  },
-  plugins: [
-    'jsx-a11y',
-    'react-hooks',
-    'import',
-    'jest',
-    'typescript-sort-keys',
-    '@typescript-eslint',
-  ],
-  root: true,
   rules: {
     '@typescript-eslint/ban-types': 0,
     '@typescript-eslint/naming-convention': [
