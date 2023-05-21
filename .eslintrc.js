@@ -5,14 +5,7 @@ module.exports = {
     jest: true,
     node: true,
   },
-  extends: [
-    'airbnb',
-    'prettier',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended',
-    'plugin:import/typescript',
-    'plugin:jest/recommended',
-  ],
+  extends: ['airbnb', 'prettier', 'plugin:@typescript-eslint/recommended'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
@@ -26,7 +19,6 @@ module.exports = {
   plugins: [
     'jsx-a11y',
     'react-hooks',
-    'prettier',
     'import',
     'jest',
     'typescript-sort-keys',
