@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.17](https://github.com/codingnomad-com/eslint-config-cn/compare/v0.1.16...v0.1.17) (2023-05-21)
+
+
+### Features
+
+* **deps:** removed many dependencies ([546ccd5](https://github.com/codingnomad-com/eslint-config-cn/commit/546ccd5ca4f1f693beb55bab401e661ba03975f7))
+
 ### [0.1.16](https://github.com/codingnomad-com/eslint-config-cn/compare/v0.1.15...v0.1.16) (2023-05-21)
 
 ### [0.1.15](https://github.com/codingnomad-com/eslint-config-cn/compare/v0.1.14...v0.1.15) (2023-05-21)
