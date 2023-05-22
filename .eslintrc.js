@@ -20,14 +20,7 @@ module.exports = {
       project: ['./App.tsx', './tsconfig.json'],
     },
   },
-  plugins: [
-    'jsx-a11y',
-    'react-hooks',
-    'import',
-    'jest',
-    'typescript-sort-keys',
-    '@typescript-eslint',
-  ],
+  plugins: ['jsx-a11y', 'react-hooks', 'import', 'jest', '@typescript-eslint'],
   root: true,
   rules: {
     '@typescript-eslint/ban-types': 0,
