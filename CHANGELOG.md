@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.19](https://github.com/codingnomad-com/eslint-config-cn/compare/v0.1.18...v0.1.19) (2023-05-22)
+
+
+### Bug Fixes
+
+* rewind changes ([868f3bf](https://github.com/codingnomad-com/eslint-config-cn/commit/868f3bfd42924ae8f5540852b7a40281504de41b))
+
 ### [0.1.18](https://github.com/codingnomad-com/eslint-config-cn/compare/v0.1.17...v0.1.18) (2023-05-21)
 
 ### [0.1.17](https://github.com/codingnomad-com/eslint-config-cn/compare/v0.1.16...v0.1.17) (2023-05-21)
