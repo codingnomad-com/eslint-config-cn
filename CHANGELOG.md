@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.23](https://github.com/codingnomad-com/eslint-config-cn/compare/v0.1.22...v0.1.23) (2023-05-22)
+
+
+### Bug Fixes
+
+* **eslint:** removed another plugin ([29c432b](https://github.com/codingnomad-com/eslint-config-cn/commit/29c432ba5f49d28330c7e0ecc07a0a691460f3b6))
+
 ### [0.1.22](https://github.com/codingnomad-com/eslint-config-cn/compare/v0.1.21...v0.1.22) (2023-05-22)
 
 
