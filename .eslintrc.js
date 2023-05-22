@@ -6,8 +6,6 @@ module.exports = {
     node: true,
   },
   extends: [
-    'airbnb',
-    'prettier',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
     'plugin:import/typescript',
@@ -26,7 +24,6 @@ module.exports = {
   plugins: [
     'jsx-a11y',
     'react-hooks',
-    'prettier',
     'import',
     'jest',
     'typescript-sort-keys',
