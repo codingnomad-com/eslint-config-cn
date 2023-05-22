@@ -6,7 +6,10 @@ module.exports = {
     node: true,
   },
   extends: [
+    'airbnb',
+    'prettier',
     'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
     'plugin:import/typescript',
     'plugin:jest/recommended',
   ],
@@ -20,7 +23,15 @@ module.exports = {
       project: ['./App.tsx', './tsconfig.json'],
     },
   },
-  plugins: ['jsx-a11y', 'react-hooks', 'import', 'jest', '@typescript-eslint'],
+  plugins: [
+    'jsx-a11y',
+    'react-hooks',
+    'prettier',
+    'import',
+    'jest',
+    'typescript-sort-keys',
+    '@typescript-eslint',
+  ],
   root: true,
   rules: {
     '@typescript-eslint/ban-types': 0,
